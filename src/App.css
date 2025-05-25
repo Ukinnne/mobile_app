@@ -3,9 +3,14 @@ head {
 }
 
 #main_buttons_box {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
   height: 100px;
-  width: 430px;
-  color: black;
   background-color: lightgray;
-  border: 1px solid black;
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -38,4 +38,14 @@ body {
   height: 24px;
   object-fit: contain;
   transition: all 0.3s ease;
+  filter: grayscale(100%) opacity(0.7);
+}
+
+.nav-button.active img {
+  filter: none;
+  transform: scale(1.2);
+}
+
+.nav-button:hover {
+  transform: translateY(-5px);
 }

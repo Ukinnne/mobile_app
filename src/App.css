@@ -39,19 +39,3 @@ body {
   object-fit: contain;
   transition: all 0.3s ease;
 }
-
-.main-button {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  height: 70px;
-  width: 70px;
-  background: transparent; /* Возвращаем прозрачный фон */
-  box-shadow: none; /* Убираем тень */
-}
-
-.main-button img {
-  width: 28px;
-  height: 28px;
-  filter: none; /* Убираем фильтр, делающий иконку белой */
-}
